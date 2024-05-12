@@ -1,0 +1,72 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: #E2AAC3;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #2D0315;
+    color: #E2AAC3;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #2D0315;
+}
+
+.navbar-toggler {
+    background-color: #ffeae6;
+}
+
+.section-title {
+    font-family: "JetBrains Mono", cursive;
+}
+
+.section-title span,
+.text-colored {
+    color: #CA80A1;
+}
+
+#cardapio {
+    background-color: #fad3e5;
+}
+
+#cardapio h3{
+    background-color: #fff;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: #2D0315;
+    opacity: .8;
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button {
+    background-color: #E2AAC3;
+    color: #2D0315;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links li a {
+    text-decoration: none;    
+}
+
+#fale-conosco input::placeholder,
+#fale-conosco textarea::placeholder {
+    opacity: .5;
+}
+
+@media (max-width:767px) {
+    .carousel-item img {
+        height: 280px;
+        object-fit: cover;
+    }
+}
